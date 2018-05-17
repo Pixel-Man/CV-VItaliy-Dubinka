@@ -1,0 +1,30 @@
+{
+  "name": "CV-VItaliy-Dubinka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Резюме Виталия Дубинка",
+  "autor": "Vitaliy Dubinka",
+  "repository": "https://github.com/Pixel-Man/CV-VItaliy-Dubinka",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "browser-sync": "latest",
+    "css-mqpacker": "latest",
+    "grunt": "latest",
+    "grunt-browser-sync": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-csso": "latest",
+    "grunt-postcss": "latest",
+    "jshint-stylish": "latest",
+    "load-grunt-tasks": "latest",
+    "time-grunt": "latest"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "start": "npm run build && grunt serve"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
